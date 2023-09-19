@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    background-color: #1f2937;
+    margin: 0;
+    font-family: "roboto";
+    
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+
+/* Header */
+
+
+.header-container {
+    display: flex;
+    background-color: rgba(0,0,0,0.9);
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+/* Header Left Container */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 10px;
+    gap: 10px;
+    padding-left: 2em;
+}
+
+.logo-image {
+ height: 2em;
+ gap: 20px;
+}
+
+.logo-shibarium {
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 2px;
+    letter-spacing: 0.3em;
+    font-size: 24px;   
+    font-weight: bold;
+}
+
+/* Spacer Container */
+.spacer {
+    flex: 1;
+}
+/* Header Right Container */
+.header-links {
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    gap: 1.5em;
+    padding-right: 2em;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+/* Layer One Container */
+
+.hero {
+    position: relative;
+}
+.layer-one-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3em auto 0em auto;
+    width: 50%;
+    background-color: rgba(0,0,0,0.95);
+    border-radius: 0.5em;
+}
+
+/* Layer One Left Container */
+
+.layer-one-left {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: left;
+    flex-direction: column;
+}
+
+.greeting {
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Russo One', sans-serif;
+}
+
+.description {
+    margin: 1em;
+    font-size: 1.1em;
+    text-align:justify;
+}
+
+.shib-bridge {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.shib-link {
+    color: white;
+    border-color: red;
+    text-decoration-color: currentColor;
+    background-image: linear-gradient(rgba(3, 189, 86, 0.568),rgba(1, 61, 16, 0.5));
+    border: 0.2em solid #314157;
+    border-radius: 2em;
+    width: 10em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+/* Layer One Right Container */
+.layer-one-right {
+    position: relative;
+    width: 50vw;
+    margin: 2em 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image1 {
+    width: 35vw;
+    height: auto;
+    border-radius: 30px;
+    padding: 1em;
+}
+
+/* Layer Two Container */
+.layer-two-container {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 0.5em;
+    margin: 2em auto 5em auto;
+    padding-bottom: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.layer-two-title {
+    margin: 0.5em auto 1em auto;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.2em;
+}
+
+.layer-two-info {
+    display: flex;
+    gap: 40px;
+}
+/* Info 1 */
+
+.info-1  {
+    display: flex;
+    flex-direction: column;
+    border: 1 solid white;
+    position: relative;
+}
+
+.info-container {
+    background-color: rgba(0,0,0,0.8);
+    padding: 1em;
+    gap: 1em;
+    border:0.15em solid#314157;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.info-img {
+    position: relative;
+    width: 8em;
+    height: 10em;
+    object-fit: fill;
+    border: 0.15em solid white;
+    border-radius: 0.5em;
+}
+.info1-title {
+    text-align: center;
+}
+
+.info1-img {
+    background-color: black;
+}
+
+.layer-three-container {
+    margin: 5em auto 1em auto;
+    position: relative;
+}
+
+.quote  {
+    font-family: 'Mooli', sans-serif;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.owner {
+    text-align: center;
+    color: white;
+    font-weight:  bolder;
+    font-size: 28px;
+}
+
+.layer-four-container {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 0.5em;
+    margin: 2em auto 5em auto;
+    padding-bottom: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-container {
+    background-image: linear-gradient(rgba(3, 189, 86, 0.568),rgba(1, 61, 16, 0.5));
+    margin: 2em auto 1em auto;
+    border-radius: 0.5em;
+    display: flex;
+    padding: 2em 2em;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+
+}
+
+.ad-text-container {
+    color: white;
+}
+
+.ad-bold {
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.ad-light {
+    margin-top: 0.5em;
+}
+
+.ad-button {
+
+    color: white;
+    border-color: red;
+    text-decoration-color: currentColor;
+    background-image: linear-gradient(rgba(3, 189, 86, 0.568),rgba(1, 61, 16, 0.5));
+    border: 0.2em solid rgb(180, 180, 180);
+    border-radius: 0.5em;
+    width: 10em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
